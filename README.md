@@ -1,10 +1,6 @@
 # my-shop
 my-shop基于Spring+SpringMVC+Mybatis+ Shiro分布式敏捷开发系统架构，提供整套公共微服务服务模块：内容管理、支付中心、用户管理（包括第三方）、微信平台、存储系统、配置中心、日志分析、任务和通知等，支持服务治理、监控和追踪，努力为中小型企业打造全方位J2EE企业级开发解决方案。 致力打造通用综合管理平台。官方qq群：711281203
 
-git：https://gitee.com/tiankong0310/my-shop.git
-github:https://github.com/tiankong0310/my-shop
-
-官方QQ群1：711281203 ,群2:685261895 欢迎大家fork,star,有兴趣的可一起参与开发，谢谢！(如有问题，请联系,小天qq:2366307000)
 
 前言
 
@@ -50,36 +46,36 @@ my-shop-reports -- 报表统计
 my-shop-wms  --库存管理系统
 后台swagger-API接口： 输入图片说明 4.技术选型
 
-技术	名称	官网
-Spring Framework	容器	http://projects.spring.io/spring-framework/
-SpringMVC	MVC框架	http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc
-Apache Shiro	安全框架	http://shiro.apache.org/
-Spring session	分布式Session管理	http://projects.spring.io/spring-session/
-MyBatis	ORM框架	http://www.mybatis.org/mybatis-3/zh/index.html
-MyBatis Generator	代码生成	http://www.mybatis.org/generator/index.html
-PageHelper	MyBatis物理分页插件	http://git.oschina.net/free/Mybatis_PageHelper
-Druid	数据库连接池	https://github.com/alibaba/druid
-FluentValidator	校验框架	https://github.com/neoremind/fluent-validator
-Thymeleaf	模板引擎	http://www.thymeleaf.org/
-Velocity	模板引擎	http://velocity.apache.org
-Redis	分布式缓存数据库	https://redis.io/
-Solr & Elasticsearch	分布式全文搜索引擎	http://lucene.apache.org/solr/ 
-Quartz	作业调度框架	http://www.quartz-scheduler.org/
-Ehcache	进程内缓存框架	http://www.ehcache.org/
-ActiveMQ	消息队列	http://activemq.apache.org/
-JStorm	实时流式计算框架	http://jstorm.io/
-FastDFS	分布式文件系统	https://github.com/happyfish100/fastdfs
-Log4J	日志组件	http://logging.apache.org/log4j/1.2/
-Swagger2	接口测试框架	http://swagger.io/
-sequence	分布式高效ID生产	http://git.oschina.net/yu120/sequence
-AliOSS & Qiniu & QcloudCOS	云存储	https://www.aliyun.com/product/oss/ http://www.qiniu.com/ 
-https://www.qcloud.com/product/cos
-Protobuf & json	数据序列化	https://github.com/google/protobuf
-Jenkins	持续集成工具	https://jenkins.io/index.html
-Maven	项目构建管理	http://maven.apache.org/
+技术					名称	官网
+Spring Framework			容器	http://projects.spring.io/spring-framework/
+SpringMVC				MVC框架	http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc
+Apache Shiro				安全框架	http://shiro.apache.org/
+Spring session				分布式Session管理	http://projects.spring.io/spring-session/
+MyBatis					ORM框架	http://www.mybatis.org/mybatis-3/zh/index.html
+MyBatis Generator			代码生成	http://www.mybatis.org/generator/index.html
+PageHelper				MyBatis物理分页插件	http://git.oschina.net/free/Mybatis_PageHelper
+Druid					数据库连接池	https://github.com/alibaba/druid
+FluentValidator				校验框架	https://github.com/neoremind/fluent-validator
+Thymeleaf				模板引擎	http://www.thymeleaf.org/
+Velocity				模板引擎	http://velocity.apache.org
+Redis					分布式缓存数据库	https://redis.io/
+Solr & Elasticsearch			分布式全文搜索引擎	http://lucene.apache.org/solr/ 
+Quartz					作业调度框架	http://www.quartz-scheduler.org/
+Ehcache					进程内缓存框架	http://www.ehcache.org/
+ActiveMQ				消息队列	http://activemq.apache.org/
+JStorm					实时流式计算框架	http://jstorm.io/
+FastDFS					分布式文件系统	https://github.com/happyfish100/fastdfs
+Log4J					日志组件	http://logging.apache.org/log4j/1.2/
+Swagger2				接口测试框架	http://swagger.io/
+sequence				分布式高效ID生产	http://git.oschina.net/yu120/sequence
+AliOSS & Qiniu & QcloudCOS		云存储	https://www.aliyun.com/product/oss/ 	http://www.qiniu.com/ 	https://www.qcloud.com/product/cos
+Protobuf & json				数据序列化	https://github.com/google/protobuf
+Jenkins					持续集成工具	https://jenkins.io/index.html
+Maven					项目构建管理	http://maven.apache.org/
+
 5.环境搭建（QQ群内有“my-shop环境搭建和系统部署文档.doc”）
 
-	开发工具:
+开发工具:
 MySql: 数据库
 jetty: 开发服务器
 Tomcat: 应用服务器
@@ -95,12 +91,20 @@ Mysql5.5+
 Redis
 ActiveMQ
 工具安装
-环境搭建和系统部署文档(作者：小天，qq:2366207000,群1:711281203 ,群2:685261895群共享提供下载)
+环境搭建和系统部署文档(服务部署文件已添加到项目中zeeker集群文件太大放入了百度云盘)
 6.架构图：
 
 输入图片说明 输入图片说明 输入图片说明 演示图：
 
-输入图片说明 输入图片说明 输入图片说明 _20180525144528.jpg") 输入图片说明 输入图片说明 输入图片说明
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/151943_dc24315f_1951565.jpeg "微信图片_20180525144338.jpg")
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/151954_11eaef22_1951565.jpeg "微信图片_20180525144350.jpg")
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/152007_6cdbfcc6_1951565.jpeg "微信图片_20180525144346.jpg")
+演示图：
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/152023_63986906_1951565.png "微信图片_20180525144441.png")
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/152040_f68b042b_1951565.jpeg "微信图片_20180525144526.jpg")
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/152048_642eb08a_1951565.jpeg "微信图片_20180525144528.jpg")
+![输入图片说明](https://gitee.com/uploads/images/2018/0525/152058_ce3c8e9f_1951565.jpeg "微信图片_20180525144531.jpg")
+ ![输入图片说明](https://gitee.com/uploads/images/2018/0525/152653_415532f9_1951565.png "微信图片_20180525152627.png")
 
 7.模块功能介绍
 
